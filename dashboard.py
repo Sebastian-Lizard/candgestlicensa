@@ -60,7 +60,7 @@ def dashboard():
             print(dados)
             data_atual = datetime.now().date()
             if dados==None:
-                st.warning('O CandGest Mobile não Possui nenhum cliente')
+                st.warning('O CandGest Mobile ainda não possui nenhum cliente')
             else:
                 n=0
                 lista = []
@@ -90,7 +90,7 @@ def dashboard():
             print(dados)
             data_atual = datetime.now().date()
             if dados==None:
-                st.warning('De momento não há nenhuma Solicitação de Licença')
+                st.warning('Nenhuma Licença Activa de momento')
             else:
                 n=0
                 for dicionario in dados:
@@ -120,7 +120,7 @@ def dashboard():
             print(dados)
             data_atual = datetime.now().date()
             if dados==None:
-                st.warning('De momento não há nenhuma Solicitação de Licença')
+                st.warning('Nenhuma Licença Expirada')
             else:
                 n=0
                 for dicionario in dados:
