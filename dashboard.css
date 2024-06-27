@@ -1,0 +1,27 @@
+.stButton > button {
+    height: 60px;
+    width: 100%;
+}
+
+
+footer{
+    visibility: hidden;
+}
+#MainMenu{
+    visibility: hidden;
+}
+h2{
+    text-align: center;
+
+}
+
+
+.st-emotion-cache-1v0mbdj {
+    display: block;
+    margin: 0 auto;
+}
+
+image{
+    display: block;
+    margin: 0 auto;
+}
